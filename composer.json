@@ -1,0 +1,23 @@
+{
+    "name": "transcy/transcy",
+    "type": "project",
+    "description": "Transcy is translate your website and make it multiple languages",
+    "license": "Fireapps",
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\": "illuminates",
+            "TranscyAdmin\\": "modules\\admin",
+            "TranscyApp\\": "modules\\app",
+            "TranscyFront\\": "modules\\front"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "6.0.0",
+        "paragonie/sodium_compat": "^1.19"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
